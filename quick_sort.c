@@ -64,7 +64,7 @@ int partition_index(int *arr,int low,int high,char ch)
         swap_count++;
         }
     }   
-    if(arr[low]>=arr[j])
+    if(arr[low]<=arr[j])
     {
     swap(&arr[low],&arr[j]);
     swap_count++;
